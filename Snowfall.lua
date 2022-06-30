@@ -1,5 +1,5 @@
 -- Snowfall Keypress for WoW 3.3.5
-local animationsCount, animations = 5, {}
+local animationsCount, animations = 1, {}
 local animationNum = 1
 local replace = string.gsub
 local frame, texture, animationGroup, alpha1, scale1, scale2, rotation2
@@ -26,12 +26,12 @@ for i = 1, animationsCount do
 
 	scale2 = animationGroup:CreateAnimation("Scale")
 	scale2:SetScale(1.5, 1.5)
-	scale2:SetDuration(0.3)
+	scale2:SetDuration(0.2)
 	scale2:SetOrder(2)
 
 	rotation2 = animationGroup:CreateAnimation("Rotation")
 	rotation2:SetDegrees(90)
-	rotation2:SetDuration(0.3)
+	rotation2:SetDuration(0.2)
 	rotation2:SetOrder(2)
 
 	animations[i] = {frame = frame, animationGroup = animationGroup}
