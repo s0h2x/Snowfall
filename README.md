@@ -1,8 +1,6 @@
 # Snowfall
 Snowfall key press (+animation) 3.3.5
 
-в отличие от старой версии, тут оптимизированный код, используется только хук обновления кнопок.
-нет не нужного конфига и тонны костылей - следовательно, нагрузка на цп и память просто минимальная, проблема с возможностью вызвать микрофриз, при входе в комбат - отсутствует.
+![Wow 2022-09-29 19-23-22-39](https://user-images.githubusercontent.com/33549022/192994854-d9b8bc5c-f0a8-43fe-b7bd-6d5aecfb1648.png)
 
-unlike the old version, here is an optimized code, only the button update hook is used.
-there is no unnecessary config and tons of crutches - therefore, the load on the CPU and memory is simply minimal, there is no problem with cause microfreeze when entering the combat.
+speedy actions and flash animation
