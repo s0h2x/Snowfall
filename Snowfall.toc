@@ -1,5 +1,5 @@
 ## Interface: 30300
 ## Title: Snowfall
-## Author: jkr
+## Notes: Speedy Actions + Animations
 
 Snowfall.lua
