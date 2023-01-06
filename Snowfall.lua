@@ -230,7 +230,7 @@ function KeyDown:OverrideKeybind(key, action)
 	end
 
 	-- SetBinding, the action buttons 1 - 12 need special handling, because they can also be vehicle buttons or stance buttons
-	local actionID = string.match(action, "^ACTIONBUTTON(%d+)")
+	local actionID = string.match(action, "^ActionButton(%d+)")
 	if( actionID ) then
 		actionID = tonumber(actionID)
 		local button = _G["KeyDownBarButton" .. actionID]
